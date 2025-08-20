@@ -1,0 +1,21 @@
+/* General font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero section */
+.hero {
+    background: url('fchs1.webp') no-repeat center center/cover;
+    padding: 80px 20px;
+}
+
+/* Hero heading */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Hero paragraph */
+.hero p {
+    font-size: 1.2rem;
+}
