@@ -1,21 +1,81 @@
-/* General font */
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+  color: #000; /* default text color black */
 }
 
-/* Hero section */
-.hero {
-    background: url('fchs1.webp') no-repeat center center/cover;
-    padding: 80px 20px;
+/* Navbar links */
+.navbar .nav-link {
+  color: #fff !important; /* navbar links white on blue bg is fine */
+}
+.navbar .nav-link:hover {
+  color: #ffcc00 !important; /* hover effect - yellow */
 }
 
-/* Hero heading */
-.hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
+/* Hero text (black/blue instead of white) */
+.carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002366; /* dark blue */
 }
 
-/* Hero paragraph */
-.hero p {
-    font-size: 1.2rem;
+.carousel-caption p {
+  font-size: 1.2rem;
+  color: #000080; /* navy blue */
+}
+
+/* Section Titles */
+section h2 {
+  font-weight: bold;
+  color: #003366; /* dark blue for headings */
+  margin-bottom: 20px;
+}
+
+/* Section Paragraphs */
+section p {
+  color: #000000; /* black text */
+}
+
+/* Gallery Card */
+.gallery-card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-card img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.gallery-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Notice List */
+#notice .list-group-item {
+  font-size: 1rem;
+  color: #0000cc; /* blue text for notices */
+  font-weight: 500;
+}
+
+/* Contact Form */
+form input, form textarea {
+  border: 1px solid #003366; /* blue border */
+}
+
+form button {
+  background-color: #003366; /* dark blue button */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0055aa;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  color: #ffffff; /* footer text stays white on dark bg */
 }
